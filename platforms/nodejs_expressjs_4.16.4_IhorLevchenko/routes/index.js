@@ -1,13 +1,17 @@
 var express = require('express');
 var router = express.Router();
+var users = require('../data/users');
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/list', (req, res) => {
-  res.render('list', { title: 'Some title', users: [{ id: 1, name: 'name1' }, { id: 2, name: 'name2' }] });
+router.get('/empty', (req, res) => {
+  res.send();
 });
+
+router.get('/mock-users', (req, res) => {
+  res.render('users', { users });
+})
 
 module.exports = router;
