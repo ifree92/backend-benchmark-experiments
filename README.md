@@ -17,7 +17,7 @@ Please implement the next API entries:
 | Method | Path        | Description                                                                                                                                                             |
 | ------ | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GET    | /empty      | Response nothing (just empty response)                                                                                                                                  |
-| GET    | /html       | Render static HTML page without template engine                                                                                                                         |
+| GET    | /users.html | Render static HTML page without template engine (please use `./templates/users.html` file for this purpose)                                                             |
 | GET    | /mock-users | Render HTML with template engine but with mock users (users should be placed as an array inside server's code, do not read it from json file or other similar approach) |
 | GET    | /db-users   | Render HTML with template engine and get users from MySQL                                                                                                               |
 
