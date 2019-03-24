@@ -28,6 +28,10 @@ Please follow the template in `./tempates/users.html` and use it for all respons
 ## User list
 
 The list if available as an SQL dump (`./data/users.sql`) and json file (`./data/users.json`).
+If it is possible, please use ORM integrated with your framework by default.
+Please follow the next tables schema:
+
+![GitHub Logo](/data/users-scheme.png)
 
 ## Pull requests
 
