@@ -33,6 +33,8 @@ Please follow the next tables schema:
 
 ![GitHub Logo](/data/users-scheme.png)
 
+**Gender** and **Education** should be allocated to tables and have foreign keys to main **Users** table.
+
 ## Pull requests
 
 Please commit to this repo in to `./platforms/*` folder following the next template: `./platforms/{language/platform}_{framework}_{version}_{your_name}`.
