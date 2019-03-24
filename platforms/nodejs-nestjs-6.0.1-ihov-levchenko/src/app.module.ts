@@ -17,6 +17,7 @@ import { Education } from './entities/education.entity';
       database: 'mydb',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
+      entityPrefix: 'nestjs_',
     }),
     TypeOrmModule.forFeature([User, Gender, Education]),
   ],
